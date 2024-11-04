@@ -1,0 +1,63 @@
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  
+  }
+  .buttonContainer {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .optionsContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+  
+    .option {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+    }
+    
+    .subHeader {
+      margin:0.75rem 0;
+    }
+    
+    .ctaButtons {
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s, color 0.3s;
+      width: 30%;
+      text-align: center;
+    }
+    
+    .saveButton {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      margin-left: auto;
+    }
+    
+    .saveButton:hover {
+      background-color: #1669c1;
+    }
+    
+    .deleteButton {
+      background-color: white;
+      color: #e74c3c;
+      border: 1px solid #e74c3c;
+      margin-right: auto;
+    }
+    
+    .deleteButton:hover {
+      background-color: #e74c3c;
+      color: white;
+    }
+    
+    

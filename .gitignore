@@ -128,3 +128,30 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+
+# SQLite database
+db.sqlite3
+
+# Local environment settings
+.env
+
+# Virtual environment
+venv/
+
+# Django static and media files
+media/
+
+# Shell profile files
+.bash_profile
+.bash_profilesource
+.bashrc
+.zshrc
+.profile

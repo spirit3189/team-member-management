@@ -1,0 +1,85 @@
+
+.back-link {
+  display: inline-block;
+  color: #1a73e8;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.form-section {
+  margin-top: 20px;
+}
+
+.form-section h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.role-options {
+  margin-top: 20px;
+}
+
+.role-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.role-option label {
+  font-size: 16px;
+  color: #333;
+  margin-left: 8px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+}
+
