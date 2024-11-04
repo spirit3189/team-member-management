@@ -173,10 +173,7 @@ client/
 
 ## Additional Notes
 
-- **Database**: By default, Django uses SQLite, which is suitable for development. For production, consider using a more robust database like PostgreSQL.
-- **CORS**: CORS is configured in Django to allow requests from `http://localhost:3000` (the React client).
-- **Error Handling**: Basic error handling is included in the React app’s custom hook (`useTeamMembers`), which displays errors to the user if API calls fail.
+- **Database choice**: By default, Django uses SQLite, which is suitable for development.
+- **CORS**: CORS is configured in Django to allow requests from `http://localhost:5173` (the React client).
+- **API Error Handling on client**: Basic error handling is included in the React app’s custom hook (`useTeamMembers`), which displays errors to the user if API calls fail.
 
-## License
-
-This project is licensed under the MIT License.
