@@ -1,0 +1,46 @@
+[
+  {
+    "model": "api.teammember",
+    "pk": 1,
+    "fields": {
+      "first_name": "Adrien",
+      "last_name": "Olczak",
+      "email": "adrien@instawork.com",
+      "phone": "4153101619",
+      "role": "admin"
+    }
+  },
+  {
+    "model": "api.teammember",
+    "pk": 2,
+    "fields": {
+      "first_name": "Charlene",
+      "last_name": "Pham",
+      "email": "charlene@instawork.com",
+      "phone": "4153101619",
+      "role": "regular"
+    }
+  },
+  {
+    "model": "api.teammember",
+    "pk": 3,
+    "fields": {
+      "first_name": "Benson",
+      "last_name": "Mach",
+      "email": "benson@instawork.com",
+      "phone": "4153101619",
+      "role": "regular"
+    }
+  },
+  {
+    "model": "api.teammember",
+    "pk": 4,
+    "fields": {
+      "first_name": "Dan",
+      "last_name": "Petrie",
+      "email": "dan@instawork.com",
+      "phone": "9876543210",
+      "role": "regular"
+    }
+  }
+]

@@ -80,7 +80,7 @@ The Django REST API provides the following endpoints for managing team members:
 2. **Set Up the Virtual Environment**:
    ```bash
    cd backend
-   python3 -m venv venv
+   python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
@@ -96,11 +96,11 @@ The Django REST API provides the following endpoints for managing team members:
    python manage.py migrate
    ```
 
-5. **Load Initial Data** (optional):
+5. **Load Initial Data**:
    Initial data is automatically loaded into the database as part of the migrations, thanks to a custom data migration script. This migration populates the TeamMember table with sample records on initial setup.
 
    ```bash
-   python manage.py migrate
+   python manage.py loaddata team_members
    ```
 
 6. **Run the Development Server**:
