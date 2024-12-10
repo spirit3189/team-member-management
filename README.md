@@ -45,7 +45,7 @@ The Django REST API provides the following endpoints for managing team members:
     "first_name": "Jag",
     "last_name": "Deesh",
     "email": "jag.deesh@example.com",
-    "phone": "1234567890",
+    "phone": "123-456-7890",
     "role": "regular"
   },
   {
@@ -53,7 +53,7 @@ The Django REST API provides the following endpoints for managing team members:
     "first_name": "Jane",
     "last_name": "Smith",
     "email": "jane.smith@example.com",
-    "phone": "9876543210",
+    "phone": "987-654-3210",
     "role": "admin"
   }
 ]
@@ -97,7 +97,7 @@ The Django REST API provides the following endpoints for managing team members:
    ```
 
 5. **Load Initial Data**:
-   Initial data is automatically loaded into the database as part of the migrations, thanks to a custom data migration script. This migration populates the TeamMember table with sample records on initial setup.
+   This migration populates the TeamMember table with sample records on initial setup.
 
    ```bash
    python manage.py loaddata team_members
